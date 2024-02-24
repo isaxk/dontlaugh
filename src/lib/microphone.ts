@@ -23,7 +23,7 @@ export const microphone: any = {
         for (const amplitude of pcmData) {
             sumSquares += amplitude * amplitude;
         }
-        const averageVolume = Math.sqrt(sumSquares / pcmData.length) * 200;
+        const averageVolume = Math.sqrt(sumSquares / pcmData.length) * 300;
         return Math.round((averageVolume + Number.EPSILON) * 100) / 100;
     },
 };

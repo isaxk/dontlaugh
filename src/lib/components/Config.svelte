@@ -9,7 +9,7 @@
     <form>
         <div class="setting">
             <input type="checkbox" id="censor" bind:checked={data.censor} />
-            <label for="censor">hide explicit content</label>
+            <label for="censor">hide explicit or offensive content</label>
         </div>
 
         <MicConfig bind:micSensitivity={data.micSensitivity} />
